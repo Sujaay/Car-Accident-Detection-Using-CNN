@@ -7,9 +7,9 @@ import winsound
 from detection import AccidentDetectionModel  # Assuming 'detection' is a module in your project
 
 # Initialize Twilio credentials and location information
-account_sid = "AC28293862da3455f559cd01b008e5b429"
-auth_token = "8559f9f24903bd5744e0d0c6e5a151ac"
-loc_address = "18.555807, 73.736986"
+account_sid = "YOUR TWILIO ACCOUNT"
+auth_token = "Your Token address"
+loc_address = "Camera Location"
 
 # Initialize the accident detection model
 model = AccidentDetectionModel("model.json", 'model_weights.h5')
